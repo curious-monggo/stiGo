@@ -1,0 +1,32 @@
+page-login {
+    .centerPerfect {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .centerVertically {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 25%;
+    }
+    .centerHorizontally {
+        display: flex;  
+        align-items: center;
+        position: absolute;
+        left: 50%;
+    }
+    .centerTest{
+        text-align:center;
+
+    }
+    .avatarSize {
+        width:50% !important;  
+        height : 50% !important;  
+        max-width: 80px !important;  //any size
+        max-height: 80px !important
+    }
+    .itemPadding {
+        padding-bottom: 0px !important;
+    }
+}
